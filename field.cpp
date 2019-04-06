@@ -43,10 +43,11 @@ field::~field(void)
 void show(point **tmp)
 {
 	for(int i = 0; i<N; i++)
-{			for(int j = 0; j<N; j++)
+	{			
+		for(int j = 0; j<N; j++)
 				cout<<tmp[i][j] << ' ';
 	cout << endl;
-}
+	}
 }
 
 void rotate(point **mas, direct k)
